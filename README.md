@@ -1,5 +1,5 @@
 # cloud_dev
 
-docker build . -t ubuntu:Cloud_Dev
+docker build . -t ubuntu:cloud_dev
 
-docker run --rm -it -v ${PWD}:/developer ubuntu:Cloud_Dev
+docker run --rm -it -v ${PWD}:/developer ubuntu:cloud_dev
