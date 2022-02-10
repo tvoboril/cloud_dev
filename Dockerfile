@@ -34,4 +34,4 @@ RUN adduser --quiet --disabled-password --shell /bin/zsh --home /home/devuser --
 RUN git clone https://github.com/tvoboril/zsh_master.git /home/devuser/zsh_master && \
 chmod 777 /home/devuser/zsh_master/install.sh
 USER devuser
-CMD ["cd /home/devuser/zsh_master/"]
+CMD ["cd /home/devuser/zsh_master"]
